@@ -28,3 +28,4 @@ message IndexedStoredGame {
   string index = 1;
   StoredGame storedGame = 2 [(gogoproto.nullable) = false];
 }
+

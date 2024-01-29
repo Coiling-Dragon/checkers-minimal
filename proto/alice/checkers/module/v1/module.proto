@@ -15,3 +15,4 @@ message Module {
   // if not set, defaults to the governance module.
   string authority = 1;
 }
+

@@ -20,8 +20,9 @@ type Keeper struct {
 	authority string
 
 	// state management
-	Schema      collections.Schema
-	Params      collections.Item[checkers.Params]
+	Schema collections.Schema
+	Params collections.Item[checkers.Params]
+
 	StoredGames collections.Map[string, checkers.StoredGame]
 }
 
